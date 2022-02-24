@@ -20,12 +20,16 @@ document.querySelector("form").addEventListener('submit', function(event) {
          return response.json()
       })
       .then( function(data) {
+         console.log(data['results'][parseInt(Math.random()*10)])
          const imgUrl = data['results'][parseInt(Math.random()*10)]['urls']['full']
          console.log(imgUrl)
+         const cardWrapper = document.querySelector(".card-wrapper")
+         cardWrapper.style.backgroundImage = `url(${imgUrl})`
        })
-       
-   
-/*    document.body.style.backgroundImage = 'url(`${imgUrl}`)';
- */})
+      
+/*    
+   cardWrapper. */
+
+})
 
 

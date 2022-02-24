@@ -52,13 +52,9 @@ textarea {
   height: 400px;
   border: 3px solid grey;
   border-radius: 25px;
+  background-size: cover;
 }
 
 .hide {
   display: none;
 }
-
-/*  .random-bckgrnd {
-
- }
- */
