@@ -1,0 +1,64 @@
+input[type=text], select {
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+input[type=submit] {
+  
+  display: block;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  justify-self: center;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+textarea {
+  display: block;
+}
+
+.form-wrapper {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: fit-content;
+  display: flex;   
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.main-wrapper {
+  text-align: center;
+}
+
+.card-wrapper {
+  width: 800px;
+  height: 400px;
+  border: 3px solid grey;
+  border-radius: 25px;
+}
+
+.hide {
+  display: none;
+}
+
+/*  .random-bckgrnd {
+
+ }
+ */

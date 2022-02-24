@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <script defer src="index.js"></script>
+
+   <link rel="stylesheet" href="style.css">
+
+   <title>Greetings Card</title>
+</head>
+
+<body>
+
+   <div class="container">
+      <div class="main-wrapper">
+
+         <h3>Let's create a Greeting Card</h3>
+
+         <div class="form-wrapper">
+            <form>
+
+               <label for="greeting">Greeting: </label>
+               <input type="text" name="greeting" id="greeting">
+
+               <label for="event-type">Type of event: </label>
+               <select name="event-type" id="event-type">
+                  <option value="wedding">Wedding</option>
+                  <option value="birthday">Birthday</option>
+                  <option value="graduation">Graduation </option>
+                  <option value="anniversary">Anniversary</option>
+               </select>
+
+               <label for="message">Your message: </label>
+               <textarea name="message" id="message" cols="30" rows="10"></textarea>
+               
+               <input type="submit" name="submit" id="submit" value="Create Card">
+
+            </form>
+         </div>
+
+         <section class="card hide">
+            <div class="card-wrapper">
+               <h1 id="card-greeting">Title</h1>
+               <p id="card-message">message</p>
+            </div>
+         </section>
+
+      </div>
+   </div>
+</body>
+</html>
